@@ -1,93 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
+
+:root {
+    --cor-principal: #fff;
+    --cor-secundaria: #000;
+}
+
 * {
-    padding: 0;
-    margin: 0;
-    font-family: "Comic Sans MS", Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+body {
+    background-color: rgb(31, 28, 28);
+    min-height: 100vh;
+    font-family: "Sriracha", cursive;
 }
 
 #heading {
-    background: #000;
-    color: #fff;
+    color: var(--cor-principal);
+    background-color: var(--cor-secundaria);
     text-align: center;
-}
-
-#heading a {
-    text-decoration: none;
-    color: #fff;
+    padding-top: 50px;
+    font-family: "Passion One", sans-serif;
 }
 
 #heading h1 {
-    padding: 40px 40px 0 40px;
-    font-weight: 900;
-    font-size: 10vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8vw;
 }
 
 #heading p {
-    padding: 30px;
-    font-size: 2.5vh;
+    padding-bottom: 50px;
+    font-size: 1.5vw;
 }
 
-#heading p a {
+#heading a, footer a{
+    text-decoration: none;
+    color: var(--cor-principal);
     font-weight: bold;
 }
 
-.apenas-texto {
-    background-color: #fff;
-    padding: 60px 30px 60px 30px;
+#heading a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
-.apenas-texto p {
-    font-size: 4vh;
-    padding: 10px 0;
-    font-weight: 600;
+.texto {
+    background-color: var(--cor-principal);
+    font-size: 2.5vw;
 }
 
-.texto-imagem {
-    background: black url(../img/background001.jpg) center center no-repeat fixed;
+.imagem {
+    background: black url(../img/background001.jpg) center center fixed;
     background-size: cover;
-    padding: 60px 30px 60px 30px;
+    font-size: 2.5vw;
+    color: var(--cor-principal);
+    padding: 0;
 }
 
-.texto-imagem div {
-    background-color: #00000079;
-    width: 60vh;
-    border-radius: 10px;
+.texto-dentro-da-div {
+    background-color: #00000071;
+    width: 13em;
 }
 
-.texto-imagem p {
-    font-size: 4vh;
-    padding: 10px 5px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.texto-imagem-dois {
-    background: black url(../img/background002.jpg) center center no-repeat fixed;
+.imagem-dois {
+    background: black url(../img/background002.jpg) center center fixed;
     background-size: cover;
-    padding: 60px 30px 60px 30px;
+    font-size: 2.5vw;
+    color: var(--cor-principal);
+    padding: 0;
 }
 
-.texto-imagem-dois div {
-    background-color: #00000079;
-    width: 60vh;
-    border-radius: 10px;
-}
-
-.texto-imagem-dois p {
-    font-size: 4vh;
-    padding: 10px 5px;
-    font-weight: 600;
-    color: #fff;
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--cor-secundaria);
     text-align: center;
-    height: 2em;
-}
-
-footer a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+    color: var(--cor-principal);
 }
