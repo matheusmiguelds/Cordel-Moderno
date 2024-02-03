@@ -47,13 +47,13 @@ body {
 
 .texto {
     background-color: var(--cor-principal);
-    font-size: 2.5vw;
+    font-size: 3.5vw;
 }
 
 .imagem {
     background: black url(../img/background001.jpg) center center fixed;
     background-size: cover;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: var(--cor-principal);
     padding: 0;
 }
@@ -66,7 +66,7 @@ body {
 .imagem-dois {
     background: black url(../img/background002.jpg) center center fixed;
     background-size: cover;
-    font-size: 2.5vw;
+    font-size: 3.5vw;
     color: var(--cor-principal);
     padding: 0;
 }
